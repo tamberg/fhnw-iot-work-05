@@ -7,20 +7,20 @@ For slides and example code, see [lesson 5](../../../fhnw-iot/blob/master/05/REA
 
 ### a) HRM BLE Peripheral, 15'
 * Build and run the previous nRF52840 BLE example.
-* Use the .ino link on the page to find the source code.
+* Use the [.ino link](https://github.com/tamberg/fhnw-iot/blob/master/05/Arduino/nRF52840_HrmBlePeripheral/nRF52840_HrmBlePeripheral.ino) on the page to find the source code.
 * Explore the HRM example using a smartphone app.
 * Draw the HRM profile as a tree, with services, etc.
 
 ### b) Scanner BLE Central, 15'
 * Build and run the previous nRF52840 BLE example.
-* Use the .ino link on the page to find the source code.
+* Use the [.ino link](https://github.com/tamberg/fhnw-iot/blob/master/05/Arduino/nRF52840_ScannerBleCentral/nRF52840_ScannerBleCentral.ino) on the page to find the source code.
 * Add a checkReportForUuid() for the Battery Service.
 * Can you spot the UUID in the advertising data?
 
 ### c) Beacons, 15'
 * Build and run the previous nRF52840 BLE example.
-* Use the .ino link on the page to find the source code.
-* Test the beacon with a dedicated iOS/Android app.
+* Use the [.ino link](https://github.com/tamberg/fhnw-iot/blob/master/05/Arduino/nRF52840_BeaconBleObservable/nRF52840_BeaconBleObservable.ino) on the page to find the source code.
+* Test the beacon with a dedicated [iOS](https://itunes.apple.com/app/nrf-beacons/id879614768?mt=8)/[Android](https://play.google.com/store/apps/details?id=no.nordicsemi.android.nrfbeacon) app.
 * Which information is transferred by a beacon?
 
 ### d) HomeKit, 15'

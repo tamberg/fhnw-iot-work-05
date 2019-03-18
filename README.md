@@ -5,8 +5,29 @@ For slides and example code, see [lesson 5](../../../fhnw-iot/blob/master/05/REA
 > *Note: Do not work on this repository right away.*<br/>
 > *[Check existing forks to find the specific repository for your class.](../../network/members)*
 
-### a) X, 0'
-* X.
+### a) HRM BLE Peripheral, 15'
+* Build and run the previous nRF52840 BLE example.
+* Use the .ino link on the page to find the source code.
+* Explore the HRM example using a smartphone app.
+* Draw the HRM profile as a tree, with services, etc.
+
+### b) Scanner BLE Central, 15'
+* Build and run the previous nRF52840 BLE example.
+* Use the .ino link on the page to find the source code.
+* Add a checkReportForUuid() for the Battery Service.
+* Can you spot the UUID in the advertising data?
+
+### c) Beacons, 15'
+* Build and run the previous nRF52840 BLE example.
+* Use the .ino link on the page to find the source code.
+* Test the beacon with a dedicated iOS/Android app.
+* Which information is transferred by a beacon?
+
+### d) HomeKit, 15'
+* [HomeKit](https://en.wikipedia.org/wiki/HomeKit) is a proprietary home-automation system.
+* Try _File > Examples > Adafruit Bluefruit nRF52 > Projects > HomeKit > [homekit_lightbulb](https://github.com/adafruit/Adafruit_nRF52_Arduino/blob/master/libraries/Bluefruit52Lib/examples/Projects/homekit/homekit_lightbulb/homekit_lightbulb.ino)_
+* An iOS device is required to test the Peripheral.
+* Read the code, how is security implemented?
 
 ### Submitting results
 * [Commit and push](#git) local changes to your repository.

@@ -20,15 +20,15 @@ For slides and example code, see [lesson 5](../../../fhnw-iot/blob/master/05/REA
 * Send data to a nRF52840 UART peripheral device.
 * Make sure every sent byte arrives at the other side.
 
-### d) Scanner BLE Central, 10'
-* Build and run the [nRF52840_ScannerBleCentral](https://github.com/tamberg/fhnw-iot/blob/master/05/Arduino/nRF52840_ScannerBleCentral/nRF52840_ScannerBleCentral.ino) example.
-* Add a checkReportForUuid() for the Battery Service.
-* Can you spot the UUID in the advertising data?
-
-### e) Beacons, 10'
+### d) Beacons, 10'
 * Build and run the [nRF52840_BeaconBleObservable](https://github.com/tamberg/fhnw-iot/blob/master/05/Arduino/nRF52840_BeaconBleObservable/nRF52840_BeaconBleObservable.ino) example.
 * Test the beacon with a dedicated [iOS](https://itunes.apple.com/app/nrf-beacons/id879614768?mt=8)/[Android](https://play.google.com/store/apps/details?id=no.nordicsemi.android.nrfbeacon) app.
 * Which information is transferred by a beacon?
+
+### e) Scanner BLE Central, 10'
+* Build and run the [nRF52840_ScannerBleCentral](https://github.com/tamberg/fhnw-iot/blob/master/05/Arduino/nRF52840_ScannerBleCentral/nRF52840_ScannerBleCentral.ino) example.
+* Add a checkReportForUuid() for the Battery Service.
+* Can you spot the UUID in the advertising data?
 
 ### f) HomeKit, 10'
 * [HomeKit](https://en.wikipedia.org/wiki/HomeKit) is a proprietary home-automation system.

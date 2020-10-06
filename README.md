@@ -29,9 +29,3 @@ For slides and example code, see [lesson 5](../../../fhnw-iot/blob/master/05/REA
 * Build and run the [nRF52840_ScannerBleCentral](https://github.com/tamberg/fhnw-iot/blob/master/05/Arduino/nRF52840_ScannerBleCentral/nRF52840_ScannerBleCentral.ino) example.
 * Add a checkReportForUuid() for the Battery Service.
 * Can you spot the UUID in the advertising data?
-
-### f) HomeKit, 10'
-* [HomeKit](https://en.wikipedia.org/wiki/HomeKit) is a proprietary home-automation system.
-* Try _File > Examples > Adafruit Bluefruit nRF52 > Projects > HomeKit > [homekit_lightbulb](https://github.com/adafruit/Adafruit_nRF52_Arduino/blob/master/libraries/Bluefruit52Lib/examples/Projects/homekit/homekit_lightbulb/homekit_lightbulb.ino)_
-* An iOS device is required to test the Peripheral.
-* Read the code, how is security implemented?

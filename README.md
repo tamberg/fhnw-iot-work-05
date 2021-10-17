@@ -31,3 +31,11 @@ For slides and example code, see [lesson 5](../../../fhnw-iot/blob/master/05/REA
 * Build and run the [nRF52840_ScannerBleCentral](https://github.com/tamberg/fhnw-iot/blob/master/05/Arduino/nRF52840_ScannerBleCentral/nRF52840_ScannerBleCentral.ino) example.
 * Add a _checkReportForUuid()_ for the Battery Service.
 * Can you spot the UUID in the advertising data?
+
+### f) Challenge, 1h+
+* Design and implement an API for the [DHT11 sensor](https://github.com/tamberg/fhnw-iot/wiki/Grove-Sensors#temperature--humidity-sensor-dht11).
+* [Create UUIDs](https://ddg.co/?q=uuid) for your service and its characteristics.
+* Allow the central to read temperature and humidity.
+* Chose a data format that fits the sensor value range.
+* Test your peripheral with a generic BLE explorer.
+* Done? Consider adding support for notifications.

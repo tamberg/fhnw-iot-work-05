@@ -8,7 +8,7 @@ For slides and example code, see [lesson 5](../../../fhnw-iot/blob/master/05/REA
 ### a) HRM BLE peripheral, 10'
 * Build and run the [nRF52840_HrmBlePeripheral](https://github.com/tamberg/fhnw-iot/blob/master/05/Arduino/nRF52840_HrmBlePeripheral/nRF52840_HrmBlePeripheral.ino) example.
 * Use the .ino link on the page to get the example code.
-* Explore the HRM example using a smartphone app,<br/>try [nRF Connect for Android](https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp) or [iOS](https://apps.apple.com/us/app/nrf-connect/id1054362403).
+* Explore the HRM example using a smartphone app.<br/>(Try [nRF Connect for Android](https://play.google.com/store/apps/details?id=no.nordicsemi.android.mcp) or [iOS](https://apps.apple.com/us/app/nrf-connect/id1054362403).)
 * Try to enable notifications to get value updates.
 
 ### b) UART BLE peripheral, 10'
